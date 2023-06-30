@@ -1,12 +1,12 @@
 #!/bin/bash
-export TWRP_MANIFEST=https://github.com/ShazuxD/platform_manifest_twrp_aosp
+export TWRP_MANIFEST=https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
 export TWRP_BRANCH=twrp-12.1
-export DT_LINK=https://github.com/ShazuxD/android_device_xiaomi_fleur-twrp
+export DT_LINK=https://github.com/shazuxd/android_device_vivo_legend-twrp
 export DT_BRANCH=android-12.1
-export DEVICE_PATH=device/xiaomi/fleur
-export DEVICE=fleur
-export MAKEFILE=twrp_fleur
-export TARGET=bootimage
-export OUTPUT=boot.img
+export DEVICE_PATH=device/vivo/legend
+export DEVICE=legend
+export MAKEFILE=twrp_legend
+export TARGET=recoveryimage
+export OUTPUT=recovery.img
 export ALT_FILE=empty
-export RANDOM=21180
+export RANDOM=9870
