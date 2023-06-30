@@ -9,4 +9,4 @@ export MAKEFILE=twrp_legend
 export TARGET=recoveryimage
 export OUTPUT=recovery.img
 export ALT_FILE=empty
-export RANDOM=9870
+export RANDOM=30564
