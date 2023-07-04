@@ -1,12 +1,12 @@
 #!/bin/bash
 export TWRP_MANIFEST=https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
-export TWRP_BRANCH=twrp-12.1
-export DT_LINK=https://github.com/ShazuxD/android_device_xiaomi_sea-twrp
-export DT_BRANCH=android-12.1
-export DEVICE_PATH=device/xiaomi/sea
-export DEVICE=sea
-export MAKEFILE=twrp_sea
+export TWRP_BRANCH=twrp-11
+export DT_LINK=https://github.com/ShazuxD/extras
+export DT_BRANCH=android-11
+export DEVICE_PATH=device/xiaomi/fleur
+export DEVICE=fleur
+export MAKEFILE=twrp_fleur
 export TARGET=bootimage
 export OUTPUT=boot.img
 export ALT_FILE=empty
-export RANDOM=27671
+export RANDOM=11453
