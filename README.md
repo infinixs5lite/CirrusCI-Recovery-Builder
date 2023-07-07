@@ -1,4 +1,4 @@
-# Use Cirrus CI to compile Recovery
+## Use Cirrus CI to compile Recovery
 
 - Support ~~OFRP~~, SHRP, TWRP compilation and production
 
