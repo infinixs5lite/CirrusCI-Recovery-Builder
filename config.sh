@@ -1,12 +1,12 @@
 #!/bin/bash
 export TWRP_MANIFEST=https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
 export TWRP_BRANCH=twrp-11
-export DT_LINK=https://github.com/ShazuxD/extras
-export DT_BRANCH=T
-export DEVICE_PATH=device/xiaomi/fleur
-export DEVICE=fleur
-export MAKEFILE=twrp_fleur
+export DT_LINK=https://github.com/RedmiNote10S/recovery_device_redmi_rosemary
+export DT_BRANCH=twrp-11
+export DEVICE_PATH=device/redmj/rosemary
+export DEVICE=rosemary
+export MAKEFILE=twrp_rosemary
 export TARGET=bootimage
 export OUTPUT=boot.img
 export ALT_FILE=empty
-export RANDOM=25297
+export RANDOM=13116
