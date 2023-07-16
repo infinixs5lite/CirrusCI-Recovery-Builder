@@ -9,4 +9,4 @@ export MAKEFILE=twrp_sea
 export TARGET=bootimage
 export OUTPUT=boot.img
 export ALT_FILE=empty
-export RANDOM=4600
+export RANDOM=8614
