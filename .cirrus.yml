@@ -1,6 +1,7 @@
 env:
     CONFIG: config.sh
     CIRRUS_SHELL: bash
+    TG_TOKEN: ENCRYPTED[fa1223b89c143815f186694852c9a5829a6477d80ef6d82e0540a7f4fc345cd97f22867b47d5db6225cdbe79f65d0ae2]
 
 task:
   name: "CirrusCI-Recovery-Builder"

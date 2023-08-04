@@ -1,7 +1,28 @@
 #!/bin/bash
+source $CONFIG
+TG_CHAT_ID=-1001983306115
+telegram_message() {
+        curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+        -d chat_id="${TG_CHAT_ID}" \
+        -d parse_mode="HTML" \
+        -d text="$1"
+}
+
+echo -e \
+"
+🛠️ ShazuxD CI
+
+The Build has been Triggered!
+
+Device: "${DEVICE}"
+Logs: <a href=\"https://cirrus-ci.com/build/${CIRRUS_BUILD_ID}\">Here</a>
+" > tg.html
+
+p=$(< tg.html)
+telegram_message "$p"
+echo " "
 
 # Source Vars
-source $CONFIG
 mkdir /tmp/ci
 cd /tmp/ci
 ls
