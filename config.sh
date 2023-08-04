@@ -1,12 +1,12 @@
 #!/bin/bash
-export TWRP_MANIFEST=https://github.com/MT6781/manifest_pb
-export TWRP_BRANCH=android-12.1
-export DT_LINK=https://github.com/MT6781/android_device_xiaomi_fleur-twrp
+export TWRP_MANIFEST=https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
+export TWRP_BRANCH=twrp-12.1
+export DT_LINK=https://github.com/ShazuxD/device_xiaomi_fleur-twrp
 export DT_BRANCH=android-12.1
 export DEVICE_PATH=device/xiaomi/fleur
 export DEVICE=fleur
-export MAKEFILE=omni_fleur
-export TARGET=pbrpimage
-export OUTPUT=pbrp.img
-export ALT_FILE=P*.zip
-export RANDOM=32427
+export MAKEFILE=twrp_fleur
+export TARGET=bootimage
+export OUTPUT=boot.img
+export ALT_FILE=empty
+export RANDOM=15070
