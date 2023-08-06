@@ -8,5 +8,5 @@ export DEVICE=fog
 export MAKEFILE=omni_fog
 export TARGET=bootimage
 export OUTPUT=boot.img
-export ALT_FILE=PBRP*.zip
+export ALT_FILE=PBRP.zip
 export RANDOM=8430
